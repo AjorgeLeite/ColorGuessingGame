@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GuessingGame.css">
+    <title>Color Guessing Game</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="title">THE GREAT</div>
+        <div class="color_code title" id="colorCode"></div>
+        <div class="title_lower title">GUESSING GAME</div>
+    </header>
+    <div class="nav_container">
+    <nav class="nav" id="nav">
+        <div class="new_colors"><button class="nav_btn nav_btn_new--colors" id="newColors">NEW COLORS</button></div>
+        <div class="result" id="result">Correct!</div>
+        <div class="difficulty" id="difficulty">
+            <button class="nav_btn" id="easy">EASY</button>
+            <button class="nav_btn" id="hard">HARD</button>
+        </div>
+    </div>
+    </nav>
+    <div class="gamecontainer" id="gamecontainer">
+    <div class="game" id="game">
+        <a class="squares squaresLink" id="squaresLink1" ><div class="squares" id="squares1"></div></a>
+        <a class="squares squaresLink" id="squaresLink2"><div class="squares squaresLink" id="squaresLink1" id="squares2"></div></a>
+        <a class="squares squaresLink" id="squaresLink3"><div class="squares" id="squares3"></div></a>
+        <a class="squares squaresLink" id="squaresLink4"><div class="squares hide" id="squares4"></div></a>
+        <a class="squares squaresLink" id="squaresLink5"><div class="squares hide" id="squares5"></div></a>
+        <a class="squares squaresLink" id="squaresLink6"><div class="squares hide" id="squares6"></div></a>
+    </div>
+    </div>
+
+
+
+
+    <script src="GuessingGame.js"></script>
+</body>
+</html>

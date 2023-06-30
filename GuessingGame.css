@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  background-color: rgb(58, 117, 172);
+}
+
+.title {
+  font-size: 35px;
+  color: white;
+}
+
+.color_code {
+  font-size: 65px;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 32px;
+  background-color: white;
+}
+
+nav {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(58, 117, 172);
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.difficulty {
+  display: flex;
+  width: 50px;
+}
+
+.nav_btn {
+  height: 32px;
+  border: 0;
+  background-color: white;
+  color: rgb(58, 117, 172);
+  font-weight: 700;
+  font-size: 17px;
+}
+.nav_btn:hover {
+  background-color: rgb(58, 117, 172);
+  color: white;
+}
+
+.gamecontainer {
+  background-color: black;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  width: 750px;
+  height: 470px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.game a {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 10%;
+}
+.game a:hover {
+  cursor: pointer;
+}
+
+.squares {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 10%;
+}
+
+.result {
+  display: none;
+}
